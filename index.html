@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luis Dominguez — Software Engineer & Frontend Developer</title>
+  
+  <!-- Tipografía Minimalista & Ultra Limpia (Plus Jakarta Sans + Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-minimal">
+
+  <!-- Header Flotante Minimalista -->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#inicio" class="navbar__brand">
+        <span class="brand-dot"></span> Luis Dominguez
+      </a>
+
+      <nav class="navbar__links">
+        <a href="#inicio">Inicio</a>
+        <a href="#saas">SaaS Concept</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto" class="btn-pill-small">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section Minimalista -->
+  <section class="hero" id="inicio">
+    <div class="container hero__grid">
+      
+      <div class="hero__text">
+        <div class="status-pill">
+          <span class="pulse-dot"></span> Disponible para nuevos proyectos
+        </div>
+
+        <h1 class="hero__title">
+          Diseño e ingeniería para la web moderna.
+        </h1>
+
+        <p class="hero__subtitle">
+          Especializado en React, Angular, JS, HTML y CSS. Construyendo soluciones Frontend de alto impacto e investigando/planificando la arquitectura de un futuro SaaS con Laravel y MongoDB.
+        </p>
+
+        <!-- Tech Badges -->
+        <div class="tech-row">
+          <span class="badge">React</span>
+          <span class="badge">Angular</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">HTML5/CSS3</span>
+          <span class="badge badge--accent">Laravel</span>
+          <span class="badge badge--accent">MongoDB</span>
+        </div>
+
+        <div class="hero__actions">
+          <a href="#proyectos" class="btn-pill btn-pill--dark">Ver Proyectos ↓</a>
+          <a href="#saas" class="btn-pill btn-pill--ghost">SaaS Architecture</a>
+        </div>
+      </div>
+
+      <!-- Foto de Perfil Limpia (Sin Animaciones Complejas, Ajuste Elegante) -->
+      <div class="hero__photo-container">
+        <div class="photo-card">
+          <img src="tu-foto.png" alt="Luis Dominguez" class="photo-img">
+          <div class="photo-caption">
+            <span class="caption-name">Luis Dominguez</span>
+            <span class="caption-role">Frontend & Full-Stack Engineer</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECCIÓN SAAS CONCEPT (Estructura Limpia) -->
+  <section class="saas-section" id="saas">
+    <div class="container">
+      <div class="saas-card">
+        <div class="saas-badge">⚡ EN PLANIFICACIÓN</div>
+        <h2 class="saas-heading">Próximo Proyecto SaaS</h2>
+        <p class="saas-text">
+          Actualmente estructurando el análisis de requerimientos y la arquitectura NoSQL con **MongoDB** y **Laravel** como Backend REST API. Diseñado para ofrecer escalabilidad y una experiencia de usuario fluida.
+        </p>
+        
+        <div class="saas-grid">
+          <div class="saas-step">
+            <span class="step-num">01</span>
+            <h4>Conceptualización</h4>
+            <p>UI/UX Wireframing & Historias de Usuario.</p>
+          </div>
+          <div class="saas-step">
+            <span class="step-num">02</span>
+            <h4>Backend Core</h4>
+            <p>Modelado MongoDB & APIs en Laravel.</p>
+          </div>
+          <div class="saas-step">
+            <span class="step-num">03</span>
+            <h4>Frontend App</h4>
+            <p>Integración reactiva con React / Angular.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN PROYECTOS (Tarjetas con Video Autoplay) -->
+  <section class="projects-section" id="proyectos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portafolio</span>
+        <h2 class="section-title">Proyectos Seleccionados</h2>
+      </div>
+
+      <div class="projects-list">
+
+        <!-- Proyecto 1: Solaris Café -->
+        <article class="project-item">
+          <div class="project-media">
+            <video class="project-video" autoplay loop muted playsinline poster="preview-solaris.jpg">
+              <source src="Solaris.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="project-details">
+            <div class="project-meta">HTML5 / CSS3 • JavaScript</div>
+            <h3 class="project-name">Solaris Café</h3>
+            <p class="project-description">
+              Sitio web moderno y responsivo Mobile-First desarrollado para una cafetería de especialidad, priorizando la velocidad y el diseño visual.
+            </p>
+            <div class="project-actions">
+              <a href="https://solariscafedemo.netlify.app/" target="_blank" class="link-arrow">Ver Demo ↗</a>
+              <a href="https://github.com/Luis-Dominguez24/Solaris-Cafe" target="_blank" class="link-github">Código GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2: Refugio Amigo -->
+        <article class="project-item">
+          <div class="project-media">
+            <video class="project-video" autoplay loop muted playsinline poster="preview-refugio.jpg">
+              <source src="Refugio.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="project-details">
+            <div class="project-meta">JavaScript • Dynamic UI</div>
+            <h3 class="project-name">Refugio Amigo</h3>
+            <p class="project-description">
+              Plataforma enfocada en facilitar el proceso de adopción de mascotas mediante una interfaz amigable e intuitiva.
+            </p>
+            <div class="project-actions">
+              <a href="https://stalwart-kitten-5ae8d8.netlify.app/" target="_blank" class="link-arrow">Ver Demo ↗</a>
+              <a href="https://github.com/Luis-Dominguez24/refugio-amigo" target="_blank" class="link-github">Código GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3: Barber Shop App -->
+        <article class="project-item">
+          <div class="project-media">
+            <video class="project-video" autoplay loop muted playsinline poster="preview-barber.jpg">
+              <source src="barber-demo.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="project-details">
+            <div class="project-meta">JavaScript • Web App</div>
+            <h3 class="project-name">Barber Shop App</h3>
+            <p class="project-description">
+              Aplicación web interactiva para la reserva de citas y gestión de servicios para barberías.
+            </p>
+            <div class="project-actions">
+              <a href="https://luis-dominguez24.github.io/barberia-repo/" target="_blank" class="link-arrow">Ver Demo ↗</a>
+              <a href="https://github.com/Luis-Dominguez24/MoreBarberShop" target="_blank" class="link-github">Código GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Contacto -->
+  <footer class="footer" id="contacto">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <h2>¿Trabajamos juntos?</h2>
+        <p>Hablemos sobre tu próximo proyecto o vacante técnica.</p>
+      </div>
+      <div class="footer__right">
+        <a href="mailto:luis.dominguez.glez24@gmail.com" class="btn-pill btn-pill--dark">luis.dominguez.glez24@gmail.com</a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/luis-dominguez-a39983306" target="_blank">LinkedIn</a>
+          <a href="https://github.com/Luis-Dominguez24" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
